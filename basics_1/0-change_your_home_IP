@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Sauvegarde du fichier /etc/hosts avant de faire des modifications
 cp /etc/hosts /etc/hosts.backup
 
