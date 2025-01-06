@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Script pour afficher les ports en écoute avec leur PID et nom de programme
-netstat -tulpen
+netstat -tulp
 netstat -lxp
