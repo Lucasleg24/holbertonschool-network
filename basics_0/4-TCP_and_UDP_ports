@@ -1,3 +1,9 @@
 #!/usr/bin/env bash
-# On utilise ss pour afficher les ports en écoute
-ss -ltnp
+# Script pour afficher les ports en écoute avec leur PID et nom de programme
+echo "Active Internet connections (only servers)"
+echo "Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name"
+ss -tunlp
+echo
+echo "Active UNIX domain sockets (only servers)"
+echo "Proto RefCnt Flags       Type       State         I-Node   PID/Program name    Path"
+ss -xlp
