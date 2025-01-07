@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# script pour afficher les IPs
+ifconfig | grep "inet " | awk '{print $2}'
